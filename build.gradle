@@ -1,0 +1,17 @@
+group 'com.pieceofquality.rest-examples'
+version '0.1'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'io.rest-assured:rest-assured:3.0.1'
+    compile 'org.hamcrest:java-hamcrest:2.0.0.0'
+    compile 'com.google.code.gson:gson:2.7'
+}
